@@ -1,0 +1,18 @@
+<script type="text/html" id="tuangou-right">
+    <%for(var i=0;i<tuangou1List.length;i++) {%>
+    <li class="item">
+        <a href="http://www.zol.com/detail/cell_phone/huawei/31027469.html?skuId=12844252&amp;spm=2037.46457" target="_blank" class="pic">
+            <img src="<%=tuangou1List[i].iurl%>" alt="<%=tuangou1List[i].pn%>">
+            <span class="icon">仅限到店</span>
+        </a>
+        <div class="word-info">
+            <p class="name"><a href="http://www.zol.com/detail/cell_phone/huawei/31027469.html?skuId=12844252&amp;spm=2037.46457" target="_blank"><%=tuangou1List[i].pn%></a></p>
+            <p class="price"><span class="price_rmb">￥</span><%=tuangou1List[i].price%></p>
+            <div class="icon-group">
+                <span class="icon">指定地区三小时送达</span>
+            </div>
+            <span class="arrival-btn" data-proid="1" data-merid="194111" data-goodsid="31027469" data-skuid="12844252">到店团</span>
+        </div>
+    </li>
+    <%}%>
+</script>

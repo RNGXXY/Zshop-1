@@ -1,0 +1,38 @@
+//opacity的兼容性
+
+@mixin opacity($val) {
+    opacity : $val/100;
+    filter : alpha(opacity=$val);
+}
+
+//小三角形
+@mixin triangle($dir,$width:10px,$color:black){
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: $width;
+    @if $dir==top{
+        border-color:transparent transparent $color transparent;
+    }
+    @if $dir==right{
+        border-color:transparent transparent transparent $color;
+    }
+    @if $dir==bottom{
+        border-color:$color transparent transparent transparent;
+    }
+    @if $dir==left{
+        border-color:transparent $color transparent transparent;
+    }
+}
+
+//清除浮动
+@mixin clearfloat{
+    &::after{
+        content: "";
+        overflow: hidden;
+        font-size: 0;
+        display: block;
+        height: 0;
+        clear: both;
+    }
+}

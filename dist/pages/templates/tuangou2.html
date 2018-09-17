@@ -1,0 +1,31 @@
+<script type="text/html" id="tuangou-middle">
+    <% for([key,val] of list) {%>
+    <li class="item">
+        <div class="function-upward_region">
+            <a href="javascript:;" target="_blank" class="pic">
+                <img src="<%=val.imgsrc%>" alt="<%=val.pname%>" width="180" height="180">
+            </a>
+            <div class="function-upward_hover">
+                <span class="opacity-mask"></span>
+                <div class="function-upward_con">
+                    <p class="refer-price">电商参考价： <b><%=val.price%></b></p>
+                    <p class="ware-detail">
+                        <a href="javascript:;" target="_blank">评测</a>
+                        <span class="line" >|</span>
+                        <a href="javascript:;" target="_blank">视频</a>
+                        <span class="line">|</span>
+                        <a href="javascript:;" target="_blank">点评</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="word-info">
+            <p class="name">
+                <a href="javascript:;" target="_blank"><%=val.pname%></a>
+            </p>
+            <p class="price"><span class="price_rmb">￥</span><%=val.price%></p>
+            <div class="time">剩余：<em><span class="red-color">9</span>天<span class="red-color">13</span>小时<span class="red-color">33</span>分<span class="red-color">42</span>秒</em></div>
+        </div>
+    </li>
+    <%}%>
+</script>

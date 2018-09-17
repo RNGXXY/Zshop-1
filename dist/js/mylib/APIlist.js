@@ -1,0 +1,9 @@
+define([],function(){
+	return{
+		tuangou1:"https://bigd.gome.com.cn/gome/rec?callback=callback1&boxid=box82&pid=9140074135&cid=124407418736773848&uid=76987513076&area=65010100&brid=10007234&imagesize=100&c1id=cat31665542&c3id=cat10000070&shopid=&sid=1130551063&_=1536774335066",
+		tuangou2:"https://bigd.gome.com.cn/gome/rec?callback=callback2&pid=A0006382371&size=9&boxid=box74&area=11010200&cid=56640829836759523&uid=76992769988&brid=10000127&shopid=80005619&c1id=cat10000001&c3id=cat10000092&sid=pop8010979360&imagesize=160&callbackparam=jsonpname_reskim&_=1536801426055",
+		tongchenggou:"https://bigd.gome.com.cn/gome/rec?callback=tongchenggou&boxid=box38&pid=9140116997",
+		dell:"https://bigd.gome.com.cn/gome/rec?callback=dellselect&pid=9140105415&size=9&boxid=box74&area=11010200&cid=56640829836759523&uid=&brid=10000127&shopid=&c1id=cat10000001&c3id=cat10000092&sid=1130582063&imagesize=660&callbackparam=jsonpname_reskim&_=1537104207254",
+		ss:""
+	}
+})

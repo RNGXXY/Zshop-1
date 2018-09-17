@@ -1,0 +1,19 @@
+<script type="text/text" id="select">
+	<li class="item first">
+		<a href="http://www.zol.com/detail/notebook/dell/31101442.html?spm=1820.45499" target="_blank" class="pic">
+			<img src="https://mercrt-fd.zol-img.com.cn/g5/M00/09/09/ChMkJ1s_IL6IAAn1AABfITG9iuYAApg0AGcn3kAAF85555.jpg" alt="" width="230" height="340">
+		</a>
+	</li>
+	<% for([key,val] of list) {%>
+		
+		<li class="item">
+			<a href="javascript:;" target="_blank" class="pic">
+				<img src="<%=val.imgsrc%>" alt="<%=val.pname%>" width="200" height="200">
+			</a>
+			<p class="ware-name">
+				<a href="javascript:;" target="_blank"><%=val.pname%></a>
+			</p>
+			<p class="ware-price">RMB <span class="price"><%=val.price%></span></p>
+		</li>
+	<%}%>
+</script>

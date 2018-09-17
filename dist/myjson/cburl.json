@@ -1,0 +1,18 @@
+[
+    {
+        "id" : "cb1",
+        "url" : "https://bigd.gome.com.cn/gome/rec?callback=callback1&boxid=box82&pid=9140074135&cid=124407418736773848&uid=76987513076&area=65010100&brid=10007234&imagesize=100&c1id=cat31665542&c3id=cat10000070&shopid=&sid=1130551063&_=1536774335066"
+    },
+    {
+        "id" : "cb2",
+        "url" : "https://bigd.gome.com.cn/gome/rec?callback=callback2&pid=A0006382371&size=9&boxid=box74&area=11010200&cid=56640829836759523&uid=76992769988&brid=10000127&shopid=80005619&c1id=cat10000001&c3id=cat10000092&sid=pop8010979360&imagesize=160&callbackparam=jsonpname_reskim&_=1536801426055"
+    },
+    {
+        "id" : "cb3",
+        "url" : "https://flight.gome.com.cn/flight?callback=callback3&requestType=3&p=10046&catid=cat10000070&width_height=210-210&c=gmAdBox&_=1536774369067"
+    },
+    {
+        "id" : "cb4",
+        "url" : "https://bigd.gome.com.cn/gome/rec?callback=callback4&pid=9140074135&cid=124407418736773848&uid=76987513076&area=65010100&brid=10007234&imagesize=160&shopid=&c1id=cat31665542&c3id=cat10000070&sid=1130551063&_=1536774369064"
+    }
+]
